@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "e0b2fe19-c790-4de1-ae63-17d117ef1b29",
+		"name": "bus-booking",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "available-seats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/available-seats?trip_id=1&start_station=Alexandria&end_station=AlMinya",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"available-seats"
+					],
+					"query": [
+						{
+							"key": "trip_id",
+							"value": "1"
+						},
+						{
+							"key": "start_station",
+							"value": "Alexandria"
+						},
+						{
+							"key": "end_station",
+							"value": "AlMinya"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
